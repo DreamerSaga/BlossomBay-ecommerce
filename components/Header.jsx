@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import logo2 from '../logo2.png'; 
+
 
 import './Header.css'
 export default function Header(){
@@ -9,7 +9,7 @@ export default function Header(){
       <header className="header">
 
       <div className="logo">
-      <img className="logo" src="./logo2.png" alt="logo" width={500} />
+      <img className="logo" src="./logo3.png" alt="logo" width={500} />
       </div>
 
       <div className="spacer"></div>

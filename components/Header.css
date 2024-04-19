@@ -3,22 +3,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #f8f8f8;
+    background-color: #E4D6C8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
  
 
   .logo img {
-    height: 40px; /* Adjust height as needed */
+    height: 60px; /* Adjust height as needed */
     width: 100%; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between logo and search bar */
+ 
   }
-  
-  .search {
-    flex: 1; /* Allow search input to expand and fill remaining space */
-    margin-right: 20px; /* Space between search bar and user options */
-  }
+
 
   .search input {
     width: 300px;
@@ -45,4 +41,21 @@
     font-size: 20px;
     color: #333;
     cursor: pointer; 
+  }
+
+
+  /* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .logo img {
+      height: 40px; /* Adjust logo height for smaller screens */
+      max-width: 150px; /* Adjust maximum width of logo for smaller screens */
+    }
+  
+    .search input {
+      max-width: 300px; /* Adjust maximum width of search input for smaller screens */
+    }
+  
+    .user-options {
+      font-size: 14px; /* Adjust font size of user options for smaller screens */
+    }
   }
